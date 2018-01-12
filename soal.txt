@@ -25,3 +25,22 @@
     d. Input lain
     | menampilkan text bantuan
 
+3. API Chat Bot
+  Menambahkan fitur membaca berita pada chat bot. Berita berdasarkan APi yang terdapat pada
+  https://newsapi.org
+  Web app "harus" menggunakna stack:
+    a. HTTP client pada node (axios/fetch/xmlhttprequest)
+    b. Headless Browser seperti PhantomJS
+  Pengguna akan mengetikkan command yang kemudian akan menjadi kata kunci bagi bot untuk mencari 
+  menggunakan API seperti terdapat pada https://newsapi.org/docs/endpoints/everything.
+  Hasil berupa text berisikan url dan judul.
+  Pengguna dapat pula melihat isi dari url menggunakan command lain dengan menerapkan Headless
+  browser (PhantomJS).
+
+  Berikut adalah contoh command chat yang akan dibuat:
+    a. Melihat isi berita
+    | news search pariwisata indonesia
+    b. Membuka isi berita yang terdapat pada urutan ke 2
+    | news open 2
+
+

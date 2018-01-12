@@ -1,0 +1,27 @@
+1. Algoritma
+  Buatlah program yang membaca input berupa daftar user, yang kemudian menyisipkan sebuah user baru.
+  Program kemudian akan membaca input tersebut dan menyimpan ke dalam daftar yang baru sesuai dengan
+  algoritma yang digunakan.
+  Algortima yang dipakai ada 2:
+    a. divide and conquer
+    b. bubble sort
+
+2. Web app (Simple Chat Bot)
+  Buatlah sebuah web app yang dapat membaca, menghapus dan menambah user.
+  Web app "harus" menggunakan stack:
+    a.Socket.io
+    b.React
+    c.Express
+  untuk menambahkan user perlu dicek menggunkanan salah satu algoritma di atas.
+  Penambahan, penghapusan dan membaca list user menggunakan fitur chat(socket.io).
+  Berikut adalah contoh command chat yang akan dibuat:
+
+    a. Menambah user
+    | user add Joko M
+    b. Melihat daftar user
+    | user list
+    c. Menghapus user
+    | user remove Joko
+    d. Input lain
+    | menampilkan text bantuan
+
